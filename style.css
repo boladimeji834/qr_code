@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-weight: 400, 700 ;
+    Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+    Font size (paragraph): 15px
+
+}
+
+
+
+    .bodi{
+        background-color: hsl(212, 45%, 89%);
+         padding-left: 190px;   
+         padding-right: 190px;
+         padding-top: 100px;
+         padding-bottom: 100px;
+         justify-content: center;
+         align-items: center;
+         display: flex;
+    }
+    .in-bodi{
+        border: 0;
+        border-radius: 15px;
+        background-color:hsl(0, 0%, 100%)  ;
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    .in-bodi>img{
+        border: 0;
+        border-radius: 15px;
+        margin: 20px;
+    }
+    img{
+        width: auto;
+    }
+    .in-bodi-text{
+        margin-left: 40px;
+        margin-right: 40px;
+        font-weight: bolder;
+    }
+    .text{
+        padding-left:40px;
+        padding-right: 40px;
+        width: 400px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 50px;
+    }
